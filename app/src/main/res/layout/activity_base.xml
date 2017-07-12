@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.woojin0417.myapplication.BaseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="258dp"
+                android:layout_height="107dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="219dp"
+                android:src="@drawable/woojin" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" 우진스 첫 어플 "
+                android:textColor="#4682B4"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="220dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
+
